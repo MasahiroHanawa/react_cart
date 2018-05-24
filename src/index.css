@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#title {
+  text-align: center;
+  margin: 50px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  color: #3d808b;
+  margin-bottom: 6px;
+  text-align: left;
+}
+p {
+  font-size: 10px;
+  color: #3d808b;
+}
+div.item {
+  margin-bottom: 25px;
+  padding: 34px 25px 22px;
+  text-align: center;
+  background: #fff
+}
+div.title-header {
+  height: 80px;
+}
+div.avatar {
+  width: 310px;
+  height: 160px;
+  margin: 0 auto 22px;
+  border: 2px solid #7f7f7f;
+  padding: 3px;
+}
+.avatar img {
+  display: block;
+  width: 300px;
+  height: 150px;
+}
+.btn-add {
+  border: 0;
+  color: #fff;
+  background-color: #fd7e14;
+  margin: 0 auto 22px;
+  border-radius: 50% !important;
+  float: right;
+}
+
+.sold_out div {
+  margin: 0 auto 22px;
+  float: right;
+}
+
+.sell div {
+  display: none;
+}
+
+.sold_out .btn-add {
+  display: none;
+}
+
+.header {
+  background-color: #545b62;
+  color: #9da0a4;
+}
+
+.header .container {
+  text-align: center;
+}
+
+.header a:link {
+  color: #9da0a4;
+}
+
+.header a:visited {
+  color: #9da0a4;
+}
+
+.header .navbar-nav  {
+  margin: 0;
+  display: inline-block !important;
+  text-align: center;
+}
+
+.header .navbar-nav li {
+  float: left;
+  display: inline-block;
+}
+
+.amount {
+  border: 0;
+  color: #fff;
+  background-color: #cc0000;
+  margin: 0 10px 0;
+  border-radius: 50% !important;
+  float: right;
+  width: 25px;
+  height: 25px;
+}
+
+.no-amount {
+  display: none;
+}
+
+.loading {
+  display: none !important;
+}
